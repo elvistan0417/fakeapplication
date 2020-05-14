@@ -20,7 +20,7 @@ public class Controller {
     private File healthFile;
 
 
-    @GetMapping("/hello-world")
+    @GetMapping("/")
     @ResponseBody
     public String getHealt1h() throws IOException {
         return "testing";
